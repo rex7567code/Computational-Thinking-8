@@ -6,14 +6,14 @@ turtle.bgcolor("black")
 
 t = turtle.Turtle()
 t.penup()
-t.goto(-100, 50)
+t.goto(-200, 80)
 t.color("maroon")
 t.speed(10)
 t.pendown()
 
 #repeating movement
-for i in range(10000):
-    t.forward(400)
+for i in range(2000):
+    t.forward(500)
     t.left(210 + 1)
     t.speed(10)
 
