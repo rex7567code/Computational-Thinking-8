@@ -46,7 +46,7 @@ t5 = create_sprite("basketball",x5,y5)
 for i in range(75):
 	x1 += random.randint(1, 10)
 	x2 += random.randint(1, 10)
-	x3 += random.randint(1, 15)
+	x3 += random.randint(1, 1)
 	x4 += random.randint(1, 10)
 	x5 += random.randint(1, 10)
 	t1.goto(x1, y1)
