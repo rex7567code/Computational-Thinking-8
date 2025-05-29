@@ -7,7 +7,7 @@ turtle.bgcolor("black")
 t = turtle.Turtle()
 t.penup()
 t.goto(-200, -80)
-t.color("cyan")
+t.color("blue")
 t.speed(10)
 t.pendown()
 
@@ -35,6 +35,7 @@ t.goto(0, 50)
 t.color("magenta")
 t.pendown()
 t.left(100)
+
 
 for i in range(500):
     t.forward(500)
