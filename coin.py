@@ -37,6 +37,7 @@ s6 = create_sprite("rectangle" , 0, -190)
 set_background("castle")
 # TODO - set the starting value for your variable
 
+
 # Section 3: Controls
 # TODO - define your controls
 def jump():
